@@ -1,0 +1,6 @@
+framework module TKSecureCategory {
+  umbrella header "TKSecureCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

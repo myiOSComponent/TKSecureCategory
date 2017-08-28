@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - TKSecureCategory (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - TKSecureCategory (from `../`)
+
+EXTERNAL SOURCES:
+  TKSecureCategory:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  TKSecureCategory: 045490dc38da1b04a23feeecf4a1ecdeb5aa63c8
+
+PODFILE CHECKSUM: 1dbf3e4ac916ab714ce079a7e3148ee66e7adaf4
+
+COCOAPODS: 1.3.1

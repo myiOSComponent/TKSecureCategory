@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'TKSecureCategory_Example' do
+  pod 'TKSecureCategory', :path => '../'
+
+  target 'TKSecureCategory_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end
